@@ -6,7 +6,7 @@ En la carpeta `/ejercicios` encontrarás los esqueletos de la implementación pa
 ### Algoritmos Ávidos
 
 #### 1. Selector de actividades recursivo
-Reescribir la función que resuelve el problema de seleccionar actividades en forma recursiva. 
+Reescribir la función que resuelve el problema de seleccionar actividades en forma recursiva.
 
 
 #### 2. Minimización del tiempo en el sistema
@@ -16,7 +16,7 @@ Dadas n tareas, cada una de las cuales tarda un tiempo t en ejecutarse y un proc
 
 > t = [4, 10, 2, 20] Si las ejecuto en el orden a1, a2, a3, a4 entonces cada una de las tareas se ejecutarán en los siguientes intervamos de tiempo a1: [0, 4), a2: [4, 14), a3:[14, 16), a4:[16, 36) y el promedio de los tiempos de finalización es (4 + 14 + 16 + 36) / 4 = 17,5. En cambio si se ejecutan a3, a1, a2, a4 entonces el cada una de las tareas se ejecutarán en los siguientes intervalos de tiempo a1: [2, 6), a2: [6, 16), a3:[0, 2), a4:[16, 36) y el promedio de los tiempos de finalización es (6 + 16 + 2 + 36) / 4 = 15
 
-#### 3. Problema de la mochila 0/1
+#### 3. Problema de la mochila fraccionaria
 Se tienen n objetos (cada objeto i tiene un peso y un valor); y una mochila con capacidad máxima de W. Se pretende encontrar la manera de cargar la mochila de forma que se maximice el valor de lo transportado y se respete su capacidad máxima. Los objetos se pueden fraccionar de tal forma de cargar solo una fracción del objeto
 
 > El paso greedy es elegir primero el elemento que tenga mayor valor por unidad de peso
@@ -33,4 +33,3 @@ Hay M farolas en las posiciones `y1,…,yM` de una recta y N puntos `x1,…,xN`.
 > **Pista:** Para resolver este problema, nos imaginamos los puntos y las farolas en la recta, ordenados de izquierda a derecha. Se encienden las farolas más a la derecha que puedan iluminar el punto actual y se avanza al siguiente punto. 
 
 > **Paso Greedy:** Dado un punto x, encender la farola más a la derecha que pueda iluminarlo.
-
